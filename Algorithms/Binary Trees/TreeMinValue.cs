@@ -46,4 +46,5 @@ namespace Algorithms.Binary_Trees
             return Math.Min((int)node.Value, Math.Min(GetTreeMinValueRecursivly(node.Left), GetTreeMinValueRecursivly(node.Right)));
         }
     }
+
 }
